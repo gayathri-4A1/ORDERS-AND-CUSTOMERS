@@ -1,0 +1,18 @@
+SELECT * FROM employees;
+SELECT SUM(SALARY) FROM EMPLOYEES WHERE ID=1;
+SELECT  SUM(salary) AS total_salary
+FROM employees GROUP BY ID;
+SELECT COUNT(ID) FROM EMPLOYEES;
+SELECT DISTINCT(SALARY) FROM EMPLOYEES;
+SELECT MAX(salary) AS highest_salary FROM employees;
+
+SELECT ID, AVG(salary) AS avg_salary
+FROM employees
+GROUP BY ID
+HAVING AVG(salary) > 45000;
+
+SELECT MIN(salary) FROM employees;
+
+
+
+

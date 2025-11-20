@@ -1,0 +1,15 @@
+INSERT INTO TASK__db.CUSTOMERS(CUSTOMER_ID,NAME,EMAIL,PHONE)
+	            VALUES(100, 'RAMYA','Ramya@gmail.com',90148756),
+					  (101, 'RASHI','Rashi@gmail.com',90148739), 
+                      (102, 'RAHA' ,'Raha@gmail.com',90148754), 
+                      (103, 'RANI' ,'Rani@gmail.com',90148739),
+                      (104, 'RAJI' ,'Raji@gmail.com',90146739);
+
+INSERT INTO TASK__db.ORDERS(ORDER_ID,PRODUCT_NAME,DELIVERY_DATE)
+	            VALUES(1000, 'PHONE','2008-1-06'),
+					  (1001, 'LAPTOP','2012-12-08'), 
+					  (1002, 'TABLE','2010-2-05'), 
+                      (1003, 'IPAD','2020-12-06'),
+                      (1004, 'IRONBOX','2007-12-06');
+SELECT * FROM CUSTOMERS;
+SELECT * FROM ORDERS;

@@ -1,0 +1,13 @@
+CREATE SCHEMA TASK__db;
+
+CREATE TABLE TASK__DB.CUSTOMERS(CUSTOMER_ID INT PRIMARY KEY,
+								NAME VARCHAR(50) NOT NULL,
+                                EMAIL VARCHAR(100),
+                                PHONE VARCHAR(100));
+					
+                    
+CREATE TABLE TASK__db.ORDERS(ORDER_ID INT PRIMARY KEY,
+							 PRODUCT_NAME VARCHAR(50) NOT NULL,
+                             DELIVERY_DATE DATE);
+							
+	
